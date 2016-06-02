@@ -46,6 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 424);
             this.Controls.Add(this.gridInventario);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMostrarInventario";
             this.Text = "FormMostrarInventario";
             this.Load += new System.EventHandler(this.FormMostrarInventario_Load);
