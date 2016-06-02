@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaAlmacen
+namespace Almacen
 {
     public partial class FormStock : Form
     {
@@ -26,6 +26,11 @@ namespace SistemaAlmacen
             String productoSeleccionado = Convert.ToString(cmbProducto.SelectedItem);
             var stock = MenuAdmin.miBodega.Stock(productoSeleccionado);
             lblCantidad.Text = "" + stock;
+        }
+
+        private void FormStock_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

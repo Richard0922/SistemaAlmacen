@@ -1,4 +1,4 @@
-﻿namespace SistemaAlmacen
+﻿namespace Almacen
 {
     partial class FormStock
     {
@@ -91,6 +91,7 @@
             this.Controls.Add(this.btnConsultarStock);
             this.Name = "FormStock";
             this.Text = "FormStock";
+            this.Load += new System.EventHandler(this.FormStock_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

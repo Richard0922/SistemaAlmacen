@@ -1,4 +1,4 @@
-﻿namespace SistemaAlmacen
+﻿namespace Almacen
 {
     partial class FormComprarProd
     {
@@ -130,6 +130,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormComprarProd";
             this.Text = "FormComprarProd";
+            this.Load += new System.EventHandler(this.FormComprarProd_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

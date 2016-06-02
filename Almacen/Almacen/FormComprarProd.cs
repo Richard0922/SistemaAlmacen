@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaAlmacen
+namespace Almacen
 {
     public partial class FormComprarProd : Form
     {
@@ -58,6 +58,11 @@ namespace SistemaAlmacen
             catch (Exception ex)
             {
             }
+        }
+
+        private void FormComprarProd_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

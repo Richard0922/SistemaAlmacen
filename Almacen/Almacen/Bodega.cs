@@ -5,7 +5,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaAlmacen
+namespace Almacen
 {
     public class Bodega
     {

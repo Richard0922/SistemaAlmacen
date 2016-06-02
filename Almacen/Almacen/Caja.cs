@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaAlmacen
+namespace Almacen
 {
     public class Caja
     {
@@ -34,6 +34,7 @@ namespace SistemaAlmacen
             {
                 StreamWriter escritor = new StreamWriter("caja.dll");
                 escritor.WriteLine(MenuAdmin.miCaja.Dinero);
+                
                 escritor.Close();
             }
             catch (Exception ex)
@@ -62,3 +63,4 @@ namespace SistemaAlmacen
         }
     }
 }
+

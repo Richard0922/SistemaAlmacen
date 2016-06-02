@@ -1,4 +1,4 @@
-﻿namespace SistemaAlmacen
+﻿namespace Almacen
 {
     partial class FormMostrarInventario
     {

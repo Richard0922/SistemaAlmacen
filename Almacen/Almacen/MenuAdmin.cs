@@ -172,7 +172,7 @@ namespace Almacen
             {
                 ventanaAbierta.Close();
             }
-            FormVenderProd ventanaChild = new FormVenderProd();
+            FormVenderProducto ventanaChild = new FormVenderProducto();
             ventanaChild.MdiParent = this;
             ventanaChild.Dock = DockStyle.Fill;
             ventanaChild.Show();
