@@ -89,6 +89,7 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnConsultarStock);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormStock";
             this.Text = "FormStock";
             this.Load += new System.EventHandler(this.FormStock_Load);
