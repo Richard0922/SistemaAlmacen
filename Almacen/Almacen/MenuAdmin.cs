@@ -21,6 +21,7 @@ namespace Almacen
         public MenuAdmin()
         {
             InitializeComponent();
+            MessageBox.Show("HOLA MUNDO");
 
         }
 
