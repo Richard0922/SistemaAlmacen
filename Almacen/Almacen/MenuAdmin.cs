@@ -22,7 +22,6 @@ namespace Almacen
         {
             InitializeComponent();
 
-            MessageBox.Show("Hola mundo como estan todos");
         }
 
         private void MenuAdmin_Load(object sender, EventArgs e)
